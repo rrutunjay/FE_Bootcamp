@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Positions</title>
+</head>
+<style>
+    .notification{
+        width: 300px;
+        height: 300px;
+        border: 2px solid black;
+        position: relative;
+        margin: 450px 0 0 700px;
+        background-color: greenyellow;
+        font-size: larger;
+        text-align: center;
+        padding-top: 15px;
+    }
+    .count{
+        background-color: red;
+        width: fit-content;
+        font-size: 25px;
+        padding: 7px;
+        border-radius: 50%;
+        position: absolute;
+        right: -20px;
+        top: -20px;
+    }
+</style>
+<body>
+    <div class="notification">
+        This is my Notification Center. 
+        <div class="count">22</div>
+    </div>
+</body>
+</html>

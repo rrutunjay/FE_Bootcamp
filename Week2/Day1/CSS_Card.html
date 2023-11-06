@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Card</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        .card{
+            width: 300px;
+            border: 2px solid black;
+            position: relative;
+            margin: 200px 600px 600px 600px;
+        }
+        .img{
+            width: 100%;
+            height: 200px;
+        }
+        .imgContainer{
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        .description{
+            padding: 10px;
+        }
+        .description button{
+            margin-top: 10px;
+            width: 100%;
+            font-weight: bold;
+        }
+        .price{
+            margin-top: 10px;
+            text-decoration: underline;
+        }
+        div i{
+            position: absolute;
+            top: 20px;
+            background-color: aliceblue;
+        }
+        .img button{
+            position: absolute;
+            top: 190px;
+            right: 0.1px;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <div class="img">
+            <img src="https://th.bing.com/th/id/R.1457d6cebe6f2f605919184968be8390?rik=IZcsaehi75oxvg&riu=http%3a%2f%2fhypebeast.com%2fimage%2f2016%2f04%2fnike-air-huarache-run-ultra-br-midnight-navy-0.jpg&ehk=nU50I6SjCAEFlVBH6rfmw%2fzsI7yZiyhFn%2bw5GT398T8%3d&risl=&pid=ImgRaw&r=0" alt="Nike" class="imgContainer">
+            <button class="new">View Similar</button>
+        </div>
+        <div class="description">
+            <h1>Nike Air Run</h1>
+            <div>A slimmed-down and more breathable version of the 1991 classic, Nike’s Air Huarache Run Ultra BR has surfaced in yet another tonal colorway, this time in a “Midnight Navy” rendition.</div>
+            <div class="price">
+                <span>Price: </span>
+                <span>1300$</span>
+            </div>
+            <button>Add to cart</button>
+        </div>
+        <div><i>Best Seller</i></div>
+    </div>
+</body>
+</html>

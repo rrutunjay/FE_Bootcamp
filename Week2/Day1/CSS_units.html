@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Units</title>
+    <style>
+        *{
+            background-color: aqua;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .parent{
+            font-size: 2em;
+            /* font-size: 32px; */
+            border: 1px solid black;
+            /* width: 20rem; */
+            width: 75vw;
+            height: 75vh;
+        }
+        .child{
+            font-size: 2em;
+            border: 1px solid black;
+            /* width: 2em; */
+            /* width: 128px; */
+            width: 50vw;
+            height: 50vh
+            ;
+        }
+    </style>
+</head>
+<body>
+    <div class="parent">
+        This  is Parent.
+        <div class="child">
+            This is Child.
+        </div>
+    </div>
+</body>
+</html>
